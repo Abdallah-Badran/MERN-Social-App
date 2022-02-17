@@ -1,0 +1,74 @@
+.main-wrapper{
+    box-shadow: 0px 0px 4px 1px rgb(51, 50, 50);
+    max-width: 500px;
+}
+
+.suggested-users-wrapper{
+    padding: 10px 0;
+}
+
+.main-wrapper h4{
+    background-color : rgb(205, 219, 241) ;
+    margin-top: 25px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.suggested-user-wrapper{
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 18px 0;
+}
+
+.suggested-user-img{
+    display: flex;
+    align-items: center;
+}
+
+.suggested-user-img img, .suggested-user-img svg{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.suggested-user-wrapper button{
+    background-color: rgb(74, 74, 221);
+    height: 30px;
+    margin: auto 0;
+    margin-right: 20px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.follow-message{
+    background-color: rgb(54, 49, 49);
+    color: white;
+    border-radius: 7px;
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    min-width: 180px;
+    height: 50px;
+    z-index: 1000;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width : 400px) {
+    .main-wrapper{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    } 
+}
