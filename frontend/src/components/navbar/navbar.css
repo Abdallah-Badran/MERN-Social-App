@@ -1,0 +1,29 @@
+nav{
+    background-color: rgb(23, 35, 100);
+    color: white;
+    padding: 12px;
+    position: sticky;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    margin-bottom: 20px;
+}
+
+
+ul{ 
+    margin-left: 20px;
+    list-style: none;
+}
+
+ul li a, ul li button{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.hi{
+    display: none;
+}

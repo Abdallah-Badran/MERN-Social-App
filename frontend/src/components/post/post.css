@@ -1,0 +1,56 @@
+.post-header{
+    background-color: rgb(205, 219, 241);
+    padding: 5px 5px 0 5px;
+    width: 100%;
+}
+
+.post-wrapper .img-wrapper img{ 
+    width: 45px;
+    height: 45px;
+}
+
+.post-wrapper{
+    margin: 0 30px;
+    box-shadow: 0px 0px 4px 1px rgb(51, 50, 50);
+    padding: 10px 50px;
+    margin-bottom: 20px;
+}
+
+.image-wrapper img{
+    object-fit: cover;
+    width: 100%;
+    border: 1px solid rgb(210, 213, 218);
+}
+
+.user-post-content{
+    padding : 10px ;
+    border: rgb(205, 219, 241) solid 2px; 
+}
+
+.user-post-content p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.post-actions{
+    margin-top: 15px;
+}
+
+.like-wrapper, .comment-wrapper{
+    position : relative ;
+}
+
+.like-wrapper span, .comment-wrapper span{
+    position : absolute ;
+    bottom : -4px ;
+    right : 2px ; 
+    font-size : 13px ;
+}
+
+
+@media screen and (max-width : 400px) {
+    .post-wrapper{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 10px;
+    } 
+}

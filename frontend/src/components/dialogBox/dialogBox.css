@@ -1,0 +1,43 @@
+.dialog-bg {
+    background: #00000050;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+
+.dialog-box{
+    background-color: white;
+    width: 360px;
+    margin: 200px auto;
+    border-radius: 10px;
+}
+
+.dialog-box h3{
+    padding: 7px 12px;
+    color: white;
+}
+
+.dialog-box-content{
+    padding: 25px 25px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.dialog-box-options{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.popup-button-confirm, .popup-button-cancel{
+    font-size: 14px;
+    padding: 8px;
+    color: white;
+    font-weight: 600;
+    margin-left: 5px;
+    background-color:rgb(23, 35, 100);
+    min-width : 70px ;
+}
+
+

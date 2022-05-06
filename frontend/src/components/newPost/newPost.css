@@ -1,0 +1,50 @@
+.new-post-wrapper .img-wrapper img{
+    height: 55px;
+    width: 55px;
+}
+
+.new-post-wrapper .profile-details{ 
+    background-color: rgb(205, 219, 241);
+    padding: 5px 10px;
+}
+
+.new-post-wrapper{
+    min-width: 450px;
+}
+
+.new-post-wrapper .card{
+    box-shadow: 0px 0px 4px 1px rgb(51, 50, 50);
+}
+
+.inputs{
+    padding: 0 20px;
+    width: 100%; 
+}
+
+.inputs textarea{
+    height: 90px; 
+    resize: none;
+    margin: 15px 0;
+}
+
+.camera-imgName {
+    margin-bottom: 10px;
+}
+
+.post-footer{
+    padding: 10px;
+    background-color: rgb(205, 219, 241);
+    width: 100%;
+}
+
+
+.camera-imgName{
+    display: flex;
+}
+
+.camera-imgName small{
+    display: block;
+    margin-left: 10px;
+    padding-top: 4px;
+}
+

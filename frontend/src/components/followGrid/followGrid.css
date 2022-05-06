@@ -1,0 +1,25 @@
+.person-wrapper .img-wrapper img{
+    width: 55px;
+    height: 55px;
+}
+
+.follow-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 80px);
+    justify-content: space-around;
+    column-gap: 20px;
+    row-gap: 20px;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+/*@media screen and (max-width : 400px){
+    .person img, .person svg{
+        height: 40px;
+        width: 40px;
+    }
+    .follow-container{
+        column-gap: 0px;
+        row-gap: 0px;
+    }
+}*/

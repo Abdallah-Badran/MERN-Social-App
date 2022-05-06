@@ -1,0 +1,16 @@
+.find-people-wrap{
+    width: 100%;
+}
+
+.find-people-wrap .profile-details{
+    min-width: 200px;
+}
+
+
+
+/*remove this at responsivness*/
+.find-people-wrap .img-wrapper img{
+    width: 60px;
+    height: 60px;
+}
+
