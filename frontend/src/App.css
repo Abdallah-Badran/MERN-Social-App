@@ -1,0 +1,112 @@
+*{
+	margin : 0 ;
+    padding : 0 ;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Palette Mosaic', cursive;
+}
+a{
+    text-decoration: none
+}
+input[type="file"]{
+    display: none;
+}
+
+.align-hor{
+    display: flex;
+    align-items: center;
+}
+
+.align-ver{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    box-shadow: 0 0 5px 2px rgb(206, 201, 201);
+}
+
+/* Signup, SignIn, Users, Profile, EditProfile*/
+.midpage-wrapper{
+    padding: 20px 70px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+.form-inputs-wrapper .input{
+    margin-bottom: 30px;
+}
+
+.form-inputs-wrapper{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.card-heading{
+    margin-bottom: 25px;
+    color : rgb(23, 35, 100);
+}
+.input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(206, 201, 201);
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+small{
+    color: rgb(126, 119, 119);
+}
+
+
+button, .label-btn{
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.img-wrapper img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.main-button{
+    background-color: rgb(23, 35, 100);
+    font-size: 15px;
+    /*font-weight: 600;*/
+    color: white;
+    padding: 8px;
+}
+
+.icon{
+    background-color: transparent ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: rgb(238, 228, 228)
+}
+
+@import url('./components/navbar/navbar.css');
+@import url('./components/loading/loader.css');
+@import url('./pages/editProfile/editProfile.css');
+@import url('./pages/profile/profile.css');
+@import url('./components/profileTabs/profileTabs.css');
+@import url('./components/followGrid/followGrid.css');
+@import url('./components/post/post.css');
+@import url('./components/comments/comment.css');
+@import url('./pages/home/home.css');
+@import url('./components/newPost/newPost.css');
+@import url('./components/findPeople/findPeople.css');
+@import url('./components/dialogBox/dialogBox.css'); 
+
+
+
+
+
+
