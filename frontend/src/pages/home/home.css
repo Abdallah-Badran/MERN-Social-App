@@ -1,0 +1,10 @@
+.home-wrapper{
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-around;
+}
+
+.home-heading{
+    width: 100%;
+}
+

@@ -1,0 +1,13 @@
+.profile-picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture label{
+    margin-top: 0;
+}
+
+.edit-profile-heading{
+    margin-bottom: 25px;
+}
